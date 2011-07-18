@@ -1,0 +1,118 @@
+/* THE BIG GUYS */
+* {margin:0;padding:0}
+body {padding: 0 0 20px;background: #009E9C url("images/bg.jpg") repeat-x;color:#000;font:83%/1.5 "century schoolbook", arial,tahoma,verdana,sans-serif;}
+#popup {padding: 0 0 20px;background: #fff url("images/latar2.jpg") repeat-x;color:#000;font:83%/1.5 arial,tahoma,verdana,sans-serif;}
+
+/* GENERAL */
+img {border:none} 
+hr {margin: 1em 0;background:#f2f2f2;height:1px;color:#f2f2f2;border:none;clear:both}
+.clear {clear:both;position:relative;font-size:0px;height:0px;line-height:0px} 
+.linkbutton a:link,.linkbutton a:visited{margin-bottom:2px;width:100px;border:0 none;text-align:center;padding: 3px;background:#343434;;color:#fff;font-weight:bold;font-size:96%;display: block;text-decoration:none;border:1px solid #eee;}
+.linkbutton a:hover {background:#464646;color: #FFFFFF;border:1px solid #eee;}
+
+/* LINKS */
+a:hover {background:transparent;text-decoration:none;cursor:pointer} 
+a:link, a:visited {color:#555;text-decoration:none;cursor:pointer} 
+a:hover,a:active {color:#000;text-decoration:none;cursor:pointer} 
+input.tombol:hover{cursor: pointer}
+/* TYPOGRAPHY */
+p, ul, ol {margin: 0 0 1.5em}
+h1, h2, h3, h4, h5, h6 {letter-spacing: -1px;font-family: arial,verdana,sans-serif;margin: 0.5em 0 .3em;color:#CCF1F0;padding-bottom: .1em;border:none;text-shadow: 1px 1px 1px black}
+h1 {font-size: 196%;margin-top:.6em}
+h2 {font-size: 136%}
+h3 {font-size: 126%}
+h4 {font-size: 116%}
+h5 {font-size: 106%}
+h6 {font-size: 96%}
+h2.login {font-size: 130%;font-family:"trebuchet ms", arial, helvetica;}
+div#content h2 {font-size: 120%;margin: 0 0 .1em;}
+.highlight {color:#E17000}
+.subdued {color:#999}
+.error {color:#f90000;font-weight:bold}
+.success {color:#390;font-weight:bold}
+.caption {color:#999;font-size:11px}
+.date {font: bold 82% arial;color:#bbb;display:block;letter-spacing: 1px}
+small {font-size:12px}
+
+/* LISTS */
+ul {margin: .3em 0 1.5em 0;list-style-type:none}
+ul.related {margin-top: -1em}
+ol {margin: .5em .5em 1.5em}
+ol li {margin-left: 1.4em;padding-left: 0;background: none; list-style-type: decimal}
+li {line-height: 1.4em;padding-left: 25px;background: transparent}
+li.doc {background-position: 3px -500px}
+ul.nomarker li {background:none;padding-left:0}
+
+dl {margin: 0 0 1em 0}
+dt {font-weight:bold;margin-top: 1.3em}
+dl dl {margin: 0 0 1.5em 30px}
+
+/* LAYOUT - HEADER */
+#headest {background:transparent url("images/header.png") no-repeat top center;margin: 0;padding: 0;height:85px;text-align:left;}
+#header {background:transparent;margin: 0;padding: 0;height:25px;}
+#headest #site-name {font: 200% "century gothic", arial, serif;letter-spacing: -.005em;margin:0 0 0 35px;padding:20px 0 0 150px;color:#fff;border:none;text-shadow: 1px 1px 1px black}
+#headest #site-name a {color:#fff;text-decoration:none;}
+#headest #site-name a:hover {color:#CCF1F0;text-decoration:none;}
+.description{color: #fff;font-size: 12px;font-family: Arial;letter-spacing:0.25em;}
+.logo {background: transparent url("images/logo_pdam.png") no-repeat 0 0;float:left;width:66px;height:68px;border:0 none;margin: 5px 10px 0 0; }
+
+/* ICONS */
+#fronticons {text-align:center;margin:auto auto 20px auto;width:800px;}
+* html #fronticons {width:800px;}
+.iconnav {width:auto;height:auto;text-align:center;float:left;margin:10px 10px 40px 10px;padding:5px;font-size:10px/11px;color:#555;}
+.iconnav:hover {border: 1px dotted #353535;}
+
+/* FORMS */
+form {margin: 0 0 1.5em}
+input, textarea {border:1px solid #999;font-family: arial,tahoma,verdana,sans-serif;margin: 2px 0;font-weight:normal;background: #fff;padding:1px;}
+input.login {padding:5px;width:200px;border:1px solid:#999;background:#fff;}
+input:focus, textarea:focus {border:1px solid #000;background: #fff;}
+fieldset {border: none}
+label {display:block;padding: 5px 0}
+label br {clear:left}
+
+/* FORMS - general classes */
+input.f-submit {border:0 none;padding: 4px 3px;background:#343434;color:#fff;font-weight:bold;font-size:96%;}
+input.f-submit:hover {border:0 none;background:#464646;color:#fff;}
+	
+/* SEARCH */
+#topdate {background:transparent no-repeat 0.3em 0.5em;color:#fff;width:30em;font-family:arial, verdana, serif;font-size:11px;padding-left:780px;}
+	
+/* LAYOUT - main body of page */
+div#wrapper {padding: 0;background:transparent url('../images/bg_wrapper.png') repeat;margin: 10px auto;width:950px;text-align: center;border: 0 none;padding:0;
+	-moz-border-radius: 12px 12px 12px 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-webkit-border-bottom-right-radius: 12px;
+	-khtml-border-bottom-left-radius: 12px;
+	-khtml-border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+#content {padding: 20px 0px 0px 0px;margin: 10px auto auto auto;width:95%;background: transparent url('../images/spacer.png') repeat-x top center;voice-family: "\"}\"";voice-family: inherit;text-align: justify;}
+
+/* LAYOUT - FOOTER */
+#footer {clear:both;background:transparent url('../images/spacer2.png') repeat-x top center;padding: 20px 0;font-size:86%;color:#fff;text-align:left;margin:0 20px;text-align:center}
+#footer p {height:56px;margin:0;background:transparent url('../images/supported_by.png') no-repeat top right;}
+#footer a {color:#fff;text-decoration:none;font-weight:bold}
+#footer a:hover {color:#CCF1F0}
+.clear {clear:both;}
+
+/* By Yudha : Rak */
+.iconrak {background:transparent;border:0 none; text-align:center;float:left;margin:20px 10px 0px 10px;padding:10px;font-size:14px/16px;color:#CCF1F0;width:100px;height:100px;font-weight:bold;font-family:arial,verdana, tahoma;text-shadow: 0.1em 0.1em 0.2em black;
+}
+.iconrak:hover {border:0 none;color:#fff;}
+.iconrak img {filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+.iconrak img:hover {filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+
+/* */
+.iconlink {background:#FFF;border:1px solid #eee;width:200px;height:350px;text-align:left;float:left;margin:10px 10px 40px 10px;padding:5px;font-size:10px/11px;color:#999;}
+.iconlink:hover {border:1px dotted #999;color:#000;}
+.spacer {background:transparent url('../images/spacer2.png') repeat-x}

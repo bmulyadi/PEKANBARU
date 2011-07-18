@@ -1,0 +1,35 @@
+2010-08-05 08:01:52;10080508015205351;_USER;127.0.0.1;1146;Table 'pdam_seed.v_menu_grup' doesn't exist;SELECT *FROM v_menu_grup WHERE ga_kode='tab5' AND grup_id='' GROUP BY appl_kode
+2010-08-05 08:10:17;10080508094003281;admin;127.0.0.1;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''admin',1,0,0,'none')' at line 1;CALL p_entry_dsml('001612',8,2010,4496,,'admin',1,0,0,'none')
+2010-08-05 08:10:36;10080508094003281;admin;127.0.0.1;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''admin',2,0,0,'none')' at line 1;CALL p_entry_dsml('001644',8,2010,0,,'admin',2,0,0,'none')
+2010-08-05 08:18:08;10080508094003281;admin;127.0.0.1;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''admin',3,0,0,'none')' at line 1;CALL p_entry_dsml('001672',8,2010,773,,'admin',3,0,0,'none')
+2010-08-05 08:22:52;10080508225136489;88100207;127.0.0.1;1146;Table 'pdam_seed.v_menu_item' doesn't exist;SELECT *FROM v_menu_item WHERE ga_kode='tab501' AND getmenu('5070200',appl_kode) = '1' GROUP BY appl_kode
+2010-08-05 08:25:53;10080508255290313;88100207;127.0.0.1;1146;Table 'pdam_seed.v_menu_grup' doesn't exist;SELECT *FROM v_menu_grup WHERE ga_kode='tab5' AND grup_id='5070200' GROUP BY appl_kode
+2010-08-06 16:22:37;10080616172870129;admin;127.0.0.1;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '400,'admin',0,0,0,'none')' at line 1;CALL p_entry_dsml('000029',8,2010,,400,'admin',0,0,0,'none')
+2010-08-19 22:20:24;_TOKEN;admin;118.96.226.223;1146;Table 'alir_sosm.v_daftar_pengguna' doesn't exist;SELECT *FROM v_daftar_pengguna LIMIT 0,7
+2010-08-19 22:23:54;_TOKEN;admin;118.96.226.223;1146;Table 'alir_sosm.v_daftar_pengguna' doesn't exist;SELECT *FROM v_daftar_pengguna LIMIT 0,7
+2010-08-19 22:25:18;_TOKEN;admin;118.96.226.223;1146;Table 'alir_sosm.v_daftar_pengguna' doesn't exist;SELECT *FROM v_daftar_pengguna LIMIT 0,7
+2010-08-19 23:21:49;10081923214924222;admin;118.96.226.223;1146;Table 'alir_sosm.t_dkd' doesn't exist;SELECT * FROM t_dkd where kp_kode = '' ORDER BY dkd_kd ASC LIMIT 0,8
+2010-08-19 23:23:05;10081923230573878;admin;118.96.226.223;1146;Table 'alir_sosm.t_dkd' doesn't exist;SELECT * FROM t_dkd where kp_kode = '10' ORDER BY dkd_kd ASC LIMIT 0,8
+2010-08-19 23:47:44;_TOKEN;admin;118.96.226.223;1054;Unknown column 'kp_db_nama' in 'field list';SELECT kp_kode,kp_ket,kp_db_nama FROM tr_kota_pelayanan ORDER BY kp_ket
+2010-08-20 08:31:23;10082008304193945;admin;118.96.226.223;1305;PROCEDURE alir_sosm.p_entry_dsml does not exist;CALL p_entry_dsml('000001',8,2010,0,50,'admin',0,0,0,'none')
+2010-08-24 16:46:03;_TOKEN;_USER;_IP;1305;FUNCTION alir_sosm.getMenu does not exist;SELECT appl_kode,appl_nama,appl_file,getMenu('5030000',appl_kode) as sts FROM tm_aplikasi WHERE ga_kode='tab6'
+2010-08-24 22:17:20;10082422165141857;pl;118.96.226.223;1305;PROCEDURE alir_sosm.p_entry_dsml does not exist;CALL p_entry_dsml('000059',8,2010,0,20,'pl',0,0,0,'none')
+2010-08-25 12:27:10;10082512265149272;admin;118.96.226.223;1054;Unknown column 'e_sm_bln' in 'field list';CALL p_entry_dsml('000030',0,40,'admin',0,0,0,'none')
+2010-08-25 12:30:55;10082512303653224;admin;118.96.226.223;1054;Unknown column 'e_sm_thn' in 'field list';CALL p_entry_dsml('000030',0,40,'admin',0,0,0,'none')
+2010-09-01 09:46:43;_TOKEN;_USER;118.96.226.223;1305;FUNCTION alir_sosm.getSL does not exist;SELECT getSL('10') AS pel_no
+2010-09-01 09:57:19;_TOKEN;_USER;118.96.226.223;1305;FUNCTION alir_sosm.getSL does not exist;SELECT getSL('10') AS pel_no
+2010-09-01 09:58:40;_TOKEN;_USER;118.96.226.223;1305;FUNCTION alir_sosm.getSL does not exist;SELECT getSL('10') AS pel_no
+2010-09-01 10:18:51;_TOKEN;_USER;118.96.226.223;1305;FUNCTION alir_sosm.getSL does not exist;SELECT getSL('10') AS pel_no
+2010-09-01 11:11:43;_TOKEN;admin;118.96.226.223;1318;Incorrect number of arguments for PROCEDURE alir_sosm.p_entry_pel; expected 10, got 18;CALL p_entry_pel(10090111112430723,'000101','Nama Anyar','1C','Jl. Alamat','','','','',@e_sts10090111112430723,'000101','Nama Anyar','Jl. Alamat','','','','',@e_sts)
+2010-09-01 11:13:08;_TOKEN;admin;118.96.226.223;1318;Incorrect number of arguments for PROCEDURE alir_sosm.p_entry_pel; expected 10, got 18;CALL p_entry_pel(10090111125208662,'000101','Nama Anyar','1C','Jl. Alamat No. 8','','','','',10090111125208662,'000101','Nama Anyar','Jl. Alamat No. 8','','','','',@e_sts)
+2010-09-01 11:14:09;_TOKEN;admin;118.96.226.223;1054;Unknown column 'e_pel_kec' in 'field list';CALL p_entry_pel(10090111135468755,'000101','Nama Anyar','1C','Jl. Alamat No. 9','','','','',@e_sts)
+2010-09-01 11:16:00;_TOKEN;admin;118.96.226.223;1054;Unknown column 'e_pel_telp' in 'field list';CALL p_entry_pel(10090111155768556,'000101','Nama Anyar','1C','Jl. Alamat No. 9','','','','','',@e_sts)
+2010-09-01 11:43:46;_TOKEN;_USER;_IP;2013;Lost connection to MySQL server at 'reading initial communication packet', system error: 111;0
+2010-09-01 12:14:26;_TOKEN;_USER;_IP;2013;Lost connection to MySQL server at 'reading initial communication packet', system error: 111;0
+2010-09-01 12:43:24;_TOKEN;_USER;118.96.226.223;1054;Unknown column 'mer_ket' in 'field list';SELECT dkd_kd,CONCAT('[',dkd_kd,'] ',mer_ket) FROM tr_dkd ORDER BY dkd_kd
+2010-09-01 15:35:06;_TOKEN;admin;118.96.226.223;1054;Unknown column 'e_met_kode' in 'field list';CALL p_ganti_wm(10090115341547659,'000102','123214324','BA/TEST/001',1,'A','01/09/2010',789,1,'admin',@sts)
+2010-09-01 18:49:37;_TOKEN;admin;118.96.226.223;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,'admin',1,@sts)' at line 1;CALL p_ganti_wm(10090117354989333,'000101','8971232187536','10110','BA/TEST/001',1,'AS','01/09/2010',,1,'admin',1,@sts)
+2010-09-01 19:22:33;_TOKEN;admin;118.96.226.223;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,'admin',0,@sts)' at line 1;CALL p_ganti_wm(10090119215820510,'000102','9281374','10110','BA/TEST/001',1,'A','01/09/2010',,1,'admin',0,@sts)
+2010-09-01 19:27:27;_TOKEN;admin;118.96.226.223;1582;Incorrect parameter count in the call to native function 'abs';CALL p_ganti_wm(10090119265814741,'000101','123142343','10110','BA/TEST/001',1,'C','01/09/2010',abs(),1,'admin',0,@sts)
+2010-09-02 09:26:31;_TOKEN;admin;118.96.226.223;1305;PROCEDURE alir_sosm.sopp_set_tps does not exist;CALL sopp_set_tps(10090209263159647,'000007',8,0,'SOPP','admin')
+2010-09-04 13:12:07;10090413095133482;admin;118.96.226.223;1146;Table 'alir_sosm.v_siap_sambung' doesn't exist;SELECT *FROM v_siap_sambung WHERE dkd_kd='10110'

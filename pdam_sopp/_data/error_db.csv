@@ -1,0 +1,8 @@
+2010-09-06 12:06:50;_TOKN;kasir;118.96.226.223;2005;Unknown MySQL server host 'billdb01.telkompoint.com' (2);0
+2010-09-17 18:34:45;10091718335925558;kasir;182.2.80.41;1146;Table 'pdam_sync.sync_status' doesn't exist;CALL sopp_bayar_rek(@e_sts,'10091718335925558','K000001','P','78600','78600','000068','201009100004678','kasir','182.2.80.41')
+2010-10-26 15:27:53;;_USER;79.125.94.116;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1;SELECT *FROM tm_rekening WHERE rek_nomor=
+2010-10-26 15:33:34;;_USER;79.125.94.116;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1;SELECT *FROM tm_rekening WHERE rek_nomor=
+2010-10-26 15:38:37;;_USER;79.125.94.116;2005;Unknown MySQL server host 'billdb01.telkompoint.com' (2);0
+2010-12-16 08:27:43;;_USER;184.72.8.51;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1;SELECT *FROM tm_rekening WHERE rek_nomor=
+2010-12-16 08:29:24;;_USER;184.72.8.51;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1;SELECT *FROM tm_rekening WHERE rek_nomor=
+2010-12-16 08:30:48;;_USER;184.72.8.51;1064;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1;SELECT *FROM tm_rekening WHERE rek_nomor=

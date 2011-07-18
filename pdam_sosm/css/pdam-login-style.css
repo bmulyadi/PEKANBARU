@@ -1,0 +1,18 @@
+body {margin: 0;padding: 0;background: url('../images/bg.jpg') #fff repeat-x top;color: #000;font-size: 12px;font-family: Verdana, Tahoma, Trebuchet ms;text-align: center;voice-family: "\"}\"";voice-family: inherit;}
+html>body {font-size: small;}
+div#wrapper {padding: 0;background:transparent;margin: auto;width: 720px;text-align: center;border: 0 none;}
+div#img {padding: 0:background:transparent;width:361px;float:left;}
+div#header {padding: 0;background:url('../images/header.jpg') #fff no-repeat center top;width: 720px;height: 125px;text-align: right;margin: auto;}
+div#img_01 {padding: 0;background:url('../images/img_01.jpg') #fff no-repeat center top;width: 361px;height: 130px;text-align: right;margin: auto;}
+div#img_02 {padding: 0;background:url('../images/img_02.jpg') #fff no-repeat center top;width: 361px;height: 130px;text-align: right;margin: auto;}
+div#img_03 {padding: 0;background:url('../images/img_03.jpg') #fff no-repeat center top;width: 361px;height: 130px;text-align: right;margin: auto;}
+input.form_button {background-color: #193682;color: #000;font-family:georgia;text-transform:uppercase;font-weight: bold;border:1px solid #fff;color:#fff;font-size:11px;}
+input, textarea, select {background-color: #fff;color: #000;font: 0.92em "Lucida Sans Unicode", Tahoma, Arial, sans-serif;border:1px solid #193682;}
+input:focus {background-color: #193682;color:#fff;border:1px solid #fff;}
+p {margin: 1.2em 0;padding: 0;font-size: 11px;line-height: 1.5em;}
+h1, h2, h3, h4, h5, h6 {clear: both;margin: 1.2em 0 1.2em 0;padding: 0;color: #fff;font-family: "times new roman",Georgia, serif;font-weight:bold;}
+h1, h2 {font-size: 1.6em;}
+h3 {font-size: 1.3em;}
+h4 {font-size: 1.2em;}
+h5 {font-size: 1.1em;}
+h6 {font-size: 1em;}

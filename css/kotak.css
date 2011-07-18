@@ -1,0 +1,63 @@
+/* referensi : http://www.webreference.com/programming/css_borders/ */
+.curved {
+  margin:auto;
+  background:transparent;
+  width:40%;
+  margin-top:10%;
+  }
+.curved h1, .curved p {
+  margin:0 10px;
+  }
+.curved h1 {
+  font-size:2em; 
+  color:#fff;
+  }
+.curved p {
+  padding-bottom:0.5em;
+  }
+.curved .b1 {
+  display:block; 
+  overflow:hidden; 
+  margin:0 5px;
+  background-color:#1b5472; 
+  height:1px;
+  font-size:1px;
+  }
+.curved .b2 {
+  display:block; 
+  overflow:hidden; 
+  margin:0 3px;
+  border-left:1px solid #1b5472;
+  border-right:1px solid #1b5472;
+  height:1px;
+  font-size:1px;
+  background-color:#45becf;
+  }
+.curved .b3 {
+  display:block; 
+  overflow:hidden; 
+  height:1px; 
+  margin:0 2px;
+  border-left:1px solid #1b5472;
+  border-right:1px solid #1b5472;
+  font-size:1px;
+  background-color:#45becf;
+  }
+.curved .b4 {
+  display:block; 
+  overflow:hidden; 
+  margin:0 1px;
+  border-left:1px solid #1b5472;
+  border-right:1px solid #1b5472;
+  height:2px;
+  font-size:1px;
+  background-color:#45becf;
+  }
+.curved .boxcontent {
+  display:block;
+  height:330px;
+  border:1px solid #1b5472;
+  border-width:0 1px;
+  background-color:#45becf;
+  }
+ /* end */

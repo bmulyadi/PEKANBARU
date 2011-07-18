@@ -1,0 +1,119 @@
+* {margin:0;padding:0}
+body {padding: 0;background: #fff url("../images/bg.jpg") repeat-x 100% 0;color:#333;font:12px/1.5 arial,tahoma,verdana,sans-serif}
+
+#header  {
+    background: transparent url('../images/headerlogo.png') no-repeat center;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+}
+#header #site-name {margin:0 0 0 0;padding:70px 0 10px;text-align:center;}
+	#site-name #sitename {font: 18px arial,sans-serif;letter-spacing: -.05em;color:#28156e;padding:0;}
+	#site-name #sitesubtitle {font: 12px arial,sans-serif;letter-spacing: -.05em;color:#28156e;}
+
+#info {
+padding:0;
+font-size:12px;
+line-height:14px;
+color:#fff;
+font-weight:bold;
+position:absolute;
+top:10px;
+right:20px;
+left:auto;
+width:400px;
+text-align:right;
+}
+img {border:0 none;}
+a,a:link,a:link,a:link,a:hover {background:transparent;text-decoration:none;cursor:pointer} 
+a:link {color:#fff} 
+a:visited {color:#9B925E} 
+a:hover,a:active {color:#000}
+
+table {border:1px solid #d0e8fb width:100%;}
+* html table {width:99%;}
+th {background:#A7E1E9;padding:4px;text-align:center;border-bottom:1px solid #1A5372;border-top:1px solid #1A5372;color:#1A5372;}
+td {padding:2px 5px;}
+tr:hover th {background:#fff;color:#000;}
+.even {background:#F3F3F3;}
+.offset {text-align:center; width:20px;}
+.offset_right {text-align:center; width:80px;}
+.table_head {background: #1A5372;color:#fff;font-weight: bold;text-align:center;}
+
+.table_cell1 {
+	BACKGROUND-COLOR:#FFFFFF; 
+	PADDING-TOP: 1px; 
+	PADDING-LEFT: 1px; 
+	PADDING-RIGHT: 1px; 
+	PADDING-BOTTOM: 1px; 	
+	COLOR: #000000; 
+	FONT-FAMILY: arial, verdana, Helvetica, sans-serif;
+	FONT-SIZE: 12px; 
+	FONT-WEIGHT: normal; 
+	text-align: left;
+}
+
+.table_cell1 a:link {text-decoration: none;font-family:arial;font-size:11px;font-weight: normal;color: #000066}
+.table_cell1 a:visited {text-decoration: none;font-family:arial;font-size:11px;font-weight: normal;color: #000066}
+.table_cell1 a:hover {text-decoration: none;font-family:arial;font-size:11px;font-weight: normal;color:#FF0000 }
+
+.table_cell2 {
+	BACKGROUND-COLOR:#eee; 
+	PADDING-TOP: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-RIGHT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	COLOR: #000000; 
+	FONT-FAMILY: arial, verdana, Helvetica, sans-serif;
+	FONT-SIZE: 12px; 
+	FONT-WEIGHT: normal; 
+	text-align: left;
+}
+
+.table_cell2 .span {
+	BACKGROUND-COLOR:#ADF1FB; 
+}
+
+.table_cell2 a:link {text-decoration: none;font-family:arial;font-size:11px;font-weight: normal;color: #000066}
+.table_cell2 a:visited {text-decoration: none;font-family:arial;font-size:11px;font-weight: normal;color:#000066}
+.table_cell2 a:hover {text-decoration: none;font-family:arial;font-size:11px;font-weight: normal;color:#FF0000 }
+
+.table_cont_btm {
+	BACKGROUND-COLOR:#666666; 
+	PADDING-TOP: 2px; 
+	PADDING-LEFT: 2px; 
+	PADDING-RIGHT: 2px; 
+	PADDING-BOTTOM: 2px; 
+	COLOR:#CCCCCC; 
+	FONT-FAMILY: Verdana, Helvetica, sans-serif;
+	FONT-SIZE: 8pt; 
+	FONT-WEIGHT: bold;
+}
+.table_cont_btm a:link {text-decoration: none;font-family:arial;font-size:8pt;font-weight: bold;color: #ffffff}
+.table_cont_btm a:visited {text-decoration: none;font-family:arial;font-size:8pt;font-weight: bold;color:#ffffff}
+.table_cont_btm a:hover {text-decoration: none;font-family:arial;font-size:8pt;font-weight: bold;color:#FF0000 ;BORDER-BOTTOM: 2px solid #FF0000;}
+
+h1.title_form {color:#fff;font-size:20px;}
+
+#footer  {
+    background: #fff url("../images/logojerbee.gif") no-repeat 5px 50%;
+	margin: 0px;
+	padding: 10px 0px;
+    width: 100%;
+    height: 20px;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	color: #666;
+	text-align: left;
+	line-height: 160%;
+}
+#footer p {padding-left:30px;}
+#footer a {
+    color: #45BFD0;
+    text-decoration: none;
+	font-weight:bold
+}
+#footer a:hover {
+    color: #000;
+    text-decoration: none;
+}

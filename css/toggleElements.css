@@ -1,0 +1,92 @@
+/**
+ * ----------------------------------------------------------------------------
+ * toggleElements.css - Stylesheet for jQuery-Plugin toggleElements
+ * ----------------------------------------------------------------------------
+ */
+
+/* Screen ------------------------------------------------------------------- */
+
+@media projection, screen {
+
+	/* Toggler - default style */
+	.toggler {
+	   margin:0px 0 25px 0;
+		cursor:pointer;
+		text-decoration: none;
+		font-size: 1.4em;
+		font-weight:bold;
+		line-height:30px;
+		display: block;
+	}
+	.toggler-closed {
+		color:#CCF1F0;
+		text-shadow: 1px 1px 1px #000;
+		padding-left:20px;
+		height:30px;
+		background: #013F3E url('../images/togglerc.png') no-repeat right center;
+		-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-khtml-border-bottom-left-radius: 8px;
+	-khtml-border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px
+	}
+	.toggler-closed:hover {
+		color:#fff;
+		text-shadow: 1px 1px 1px #000;
+		height:30px;
+		background: #013F3E url('../images/togglerch.png') no-repeat right center;
+	}
+	.toggler-opened {
+		color:#CCF1F0;
+		text-shadow: 1px 1px 1px #000;
+		padding-left:20px;
+		height:30px;
+		background: #013F3E url('../images/toggleroh.png') no-repeat right center;
+		-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-khtml-border-bottom-left-radius: 0px;
+	-khtml-border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px
+	}
+	.toggler-opened:hover {
+		color:#fff;
+		text-shadow: 1px 1px 1px #000;
+		padding-left:20px;
+		height:30px;
+		background: #013F3E url('../images/togglero.png') no-repeat right center;
+	}
+
+	/* Container - default style */
+	.toggler-c {
+	}
+	.toggler-c-closed {
+	   background:transparent url('../images/bg_opacity.png') repeat;
+		margin:-25px 0px 25px 0px;
+	   padding:20px;
+	}
+	.toggler-c-opened {
+		margin:-25px 0px 25px 0px;
+	   padding:20px;
+	   background:transparent url('../images/bg_opacity.png') repeat;
+	   		-moz-border-radius:  0px 0px 8px 8px;
+	-webkit-border-bottom-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-khtml-border-bottom-left-radius: 8px;
+	-khtml-border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px
+	}
+
+}
+
+/* Print -------------------------------------------------------------------- */
+@media print {
+
+	.toggler-c { margin-bottom:25px; }
+	.toggler { display: none; }
+
+}

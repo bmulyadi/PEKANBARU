@@ -1,0 +1,26 @@
+h2.trigger {width:870px;}
+.trigger {
+  background:#bcbcbc;
+  cursor: pointer;
+  color:#000;
+  text-shadow:1px 1px #fff;
+}		
+.trigger:hover {
+  cursor: pointer;
+  background:#323232;
+  color:#fff;
+  text-shadow:1px 1px #000;
+}		
+.expanded {
+  background: #bcbcbc;
+  cursor: pointer;
+}
+.expanded:hover {
+  background:#323232;
+  color:#fff;
+  text-shadow:1px 1px #000;
+  cursor: pointer;
+}
+.trigger img {
+  padding: 0 8px;
+}
