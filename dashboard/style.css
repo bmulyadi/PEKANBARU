@@ -1,4 +1,4 @@
-body {background:#0A0D10 url('images/body-top.jpg') repeat-x top center;font-family:"Microsoft Sans Serif", arial, helvetica, verdana, serif;color:#fff;padding:0;margin:0;font-size:16px;}
+body {background:#110b0b url('images/body-top.jpg') repeat-x top center;font-family:"Microsoft Sans Serif", arial, helvetica, verdana, serif;color:#fff;padding:0;margin:0;font-size:16px;}
 #header {background:transparent;height:51px;text-align:left;padding:0;margin:0;}
 #container {width:99%;background: transparent; text-align:center; margin: 0 auto;padding-top:0;}
 #container_left {width:56%;background: transparent url('images/bg_container.png') repeat; text-align:center; margin: 10px auto 0 auto;padding:10px;float:left;border:1px solid #1c1b13;font-family:arial, helvetica, verdana, serif;color:#fff;position:relative;
@@ -69,9 +69,9 @@ table {width:100%;background:transparent url('images/bg_table.png') repeat-x top
 	border-bottom-left-radius: 6px;
 	border-bottom-right-radius: 6px;}
 * html table {width:99%;}
-th {padding:5px;text-align:center;color:#fff;font-family:Arial, Verdana;font-size:18px;}
+th {padding:5px;text-align:center;color:#fff;font-family:Arial, Verdana;font-size:12px;}
 tr th {background:transparent url('images/spacer_table.jpg') repeat-x bottom center;}
-td {padding:2px 5px;font-size:18px;font-family:"Century Schoolbook", Helvetica, Arial, Calibri}
+td {padding:2px 5px;font-size:12px;font-family:"Century Schoolbook", Helvetica, Arial, Calibri}
 th.right, td.right {text-align:right;}
 th.left, td.left {text-align:left;}
 th.center, td.center {text-align:center;}

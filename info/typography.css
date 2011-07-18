@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'MyriadProBoldCondensed';
+	src: url('../fonts/myriadcondensed-webfont.eot');
+	src: local('.'), url('../fonts/myriadcondensed-webfont.woff') format('woff'), url('../fonts/myriadcondensed-webfont.ttf') format('truetype'), url('../fonts/myriadcondensed-webfont.svg#webfontTQ8DxsqV') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'MonospaceTypewriterRegular';
+	src: url('../fonts/MonospaceTypewriter-webfont.eot');
+	src: local('.'), url('../fonts/MonospaceTypewriter-webfont.woff') format('woff'), url('../fonts/MonospaceTypewriter-webfont.ttf') format('truetype'), url('../fonts/MonospaceTypewriter-webfont.svg#webfontlaBbawnD') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PTSansNarrowRegular';
+	src: url('../fonts/PT_Sans_Narrow-webfont.eot');
+	src: local('.'), url('../fonts/PT_Sans_Narrow-webfont.woff') format('woff'), url('../fonts/PT_Sans_Narrow-webfont.ttf') format('truetype'), url('../fonts/PT_Sans_Narrow-webfont.svg#webfontRDgt77k2') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'LeagueGothicRegular';
+	src: url('../fonts/League_Gothic-webfont.eot');
+	src: local('.'), url('../fonts/League_Gothic-webfont.woff') format('woff'), url('fonts/League_Gothic-webfont.ttf') format('truetype'), url('../fonts/League_Gothic-webfont.svg#webfontpm5EArBj') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

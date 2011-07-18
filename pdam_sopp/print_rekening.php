@@ -36,7 +36,7 @@
  					 	<tbody><tr class="form_cell"><td><b>Yth. Bapak/Ibu <?=$row0->pel_nama?></b></td></tr>
 
 						<tr class="form_cell"><td><?=$row0->pel_alamat?></td></tr>
-					 	<tr class="form_cell"><td><br><hr>* <b><i>Pemberitahuan</i></b><br>Dengan ini kami informasikan bahwa terhitung mulai bulan juli 2009 untuk pembayaran rekening air PDAM Tirta Raharja dapat dilakukan di loket pelayanan <b><i>PT.POS Indonesia </i></b><i><i>terdekat, dengan dikenakan biaya Administrasi PT.POS sebesar Rp.2000,- <br><br><i>Web : http://www.tirtaraharja.co.id<br>e-mail : pdam@tirtaraharja.co.id<br>SMS : (022)70 600 666</i></i></i></td></tr>
+					 	<tr class="form_cell"><td><br><hr>* <b><i>Pemberitahuan</i></b><br>Dengan ini kami informasikan bahwa terhitung mulai bulan juli 2009 untuk pembayaran rekening air PDAM Tirta Siak dapat dilakukan di loket pelayanan <b><i>PT.POS Indonesia </i></b><i><i>terdekat, dengan dikenakan biaya Administrasi PT.POS sebesar Rp.2000,- <br><br><i>Web : http://www.tirtasiak.co.id<br>e-mail : pdam@tirtasiak.co.id<br>SMS : (0761)70 600 666</i></i></i></td></tr>
 
 					 	<tr class="form_cell"><td align="center"><hr><b>Profesional, Handal, Menuju Pelayanan Prima</b></td></tr>
 

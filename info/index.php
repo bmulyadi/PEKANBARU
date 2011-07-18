@@ -1,102 +1,46 @@
+<?
+include "lib.php";
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
-<title><?=$application_name?></title>
+<title><?=$appl_owner?> &bull; <?=$appl_name?></title>
+<meta name="Keywords" content="informasi, pelanggan, air, water, pdam tirta raharja, kabupaten bandung" />
+<meta name="Description" content="<?=$appl_desc?>" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
 <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
-<style type="text/css">
-<!--
-	@import"css/mainindex.css";
-	.duit { text-align: right} 
-	.resm { font-size: 10pt }
-	h1 {font-size:20px;}
-	input.form_button {
-		background-color: #1a5372;
-		color: #000;
-		text-transform:uppercase;
-		font-weight: bold;
-		border:0 none;
-		color:#fff;
-		font-size:11px;
-		padding:4px 7px;
-	}	
--->
-</style>
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<!--[if lt IE 8]>
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection" />
+	<![endif]-->
+<link href="typography.css" rel="stylesheet" type="text/css" media="screen, projection" />
 <script type="text/javascript" src="prototype.js"></script>
-<script type="text/javascript">
-	function init () {
-		resize();
-		getTabData();
-	}
-	
-	function getTabData(param) {
-		var url = 'process.php';
-		var rand = Math.random(9999);
-		var pars = param + '&rand=' + rand;
-		var myAjax = new Ajax.Request( url, {method: 'post', parameters: pars, onLoading: showLoad, onComplete: showResponse} );
-	}
-	
-	function showLoad () {
-		$('load').style.display = 'inline';
-	}
-
-	function showStop () {
-		$('load').style.display = 'none';
-	}
-
-	function showResponse (originalRequest) {
-		var newData = originalRequest.responseText;
-		showStop();
-		$('nyangberubah').innerHTML = newData;
-	}
-	
-	function find_data(){ 
-		var id1 = document.getElementsByClassName('id1');
-	  	param = "id1=" + id1[0].value;
-	 	getTabData(param);
-	}
-	
-	function next_page(page,rek,uang){
-		var id1 = document.getElementsByClassName('id1');
-	  	param = "id1=" + id1[0].value + "&id2=" + page + "&id3=" + rek + "&id4=" + uang;
-	 	getTabData(param);
-	}
-	
-	function entry_data(nomor){
-		var id1 = document.getElementsByClassName('id1');
-		if (nomor == "delete"){
-			param = null;			
-		}
-		else{
-			param = id1[0].value + nomor;
-		}
-		document.getElementsByClassName('id1')[0].value = param;
-	}
-	function resize(){
-		var dim = Element.getHeight('mainWin');
-		var tin = dim - 157;
-		//alert(tin);
-		Element.setStyle('nyangberubah',({height: ''+tin+''}));
-	}	
-</script>
+<script type="text/javascript" src="getdata.js"></script>
+<!--[if lte IE 7]>
+    <script type="text/javascript" src="unitpngfix.js"></script>
+<![endif]--> 
 </head>
-
-<body id="mainWin" onload="init()" style="height:100%;overflow:auto">
-
-<div id="header"/>
-<div id="site-name"/>
-<div id="sitename">PT. Telkom Indonesia<br />
-	<span id="load"><img src="images/tirta-load.gif" align="absmiddle"/></span>
-</div>
-</div>
-</div>
-<div id="container">
-<div id="content">
-	<div id="nyangberubah" style="padding:4px;text-align:justify;width:98%;margin-top:30px;overflow:auto">
+<body onload="init()">
+<div class="container">
+	<div class="span-24 header">
+		<img style="width:84px height:50px;" src="<?=$appl_logo?>" alt="PDAM Tirta Raharja" /><br />
+		<span id="load"><img src="images/tirta-load.gif" align="absmiddle"/></span>
 	</div>
-</div>
-<div id="footer">
-	<p>Supported by <a href="http://www.jerbee.co.id" title="PT. Jerbee Indonesia">Jerbee</a></p>
-</div>
+	<div class="span-24 content">
+		<div id="container">
+			<div id="content">
+				<div id="nyangberubah" style="height:80%;padding:0px;text-align:center;width:100%;margin-top:0px;">
+				</div>
+			</div>
+			<div class="clear">&nbsp;</div>
+		</div>
+	</div>
+	<div class="span-24 footer">
+		<p>Copyright <?=$year?> &copy; <a href="http://www.tirtasiak.co.id" title="PDAM Tirta Siak"><?=$appl_owner?></a>. Developed by <a href="http://www.jerbee.co.id" title="PT. Jerbee Indonesia"><?=$appl_developer?></a> | <em>Best viewed with Mozilla Firefox 3.x.x with 1024x768 resolution</em>.</p>
+	</div>
 </div>
 <script>showStop();</script>
 </body>

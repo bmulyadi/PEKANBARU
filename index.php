@@ -30,7 +30,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>SOPP PDAM &bull; Telkom Indonesia</title>
+	<title>SOPP PDAM &bull; PDAM Tirta Siak Pekanbaru</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/ShowHide.css" media="screen">
 	<link rel="shortcut icon" href="favicon.ico" type="image/ico">  
@@ -56,7 +56,7 @@
   <div id="load"></div>
   <div id="peringatan"></div>
   <div class="container">
-	<div class="span-24 header"><h1>SOPP PDAM</h1></div>
+	<div class="span-24 header"><h1>PDAM Tirta Siak Pekanbaru</h1></div>
 	<div class="span-24 wrapper">
 		<div class="span-1">&nbsp;</div>
 <?
@@ -113,7 +113,7 @@
 		<div class="span-1">&nbsp;</div>
 		<div class="span-22">
 				<div id="footer">
-				<p><span style="float:left">Copyright &copy; 2009 <a href="http://www.jerbee.co.id/">PT. Jerbee Indonesia</a>. All Rights Reserved</a></span><img style="float:right" src="images/supported_by.png" /></p>
+				<p><span style="float:left">Copyright &copy; 2011 <a href="http://www.tirtasiak.co.id/">PDAM Tirta Siak</a> & <a href="http://www.jerbee.co.id/">PT. Jerbee Indonesia</a>. All Rights Reserved</a></span><img style="float:right" src="images/supported_by.png" /></p>
 				</div>
 		</div>
 		<div class="span-1 last">&nbsp;</div>
